@@ -31,7 +31,6 @@
             margin-bottom: 30px;
             display: flex;
             border: 1px solid rgb(0, 0, 0);
-
         }
         body{
             background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Xybvmf6vbsWaENIeXspocQHaEK%26pid%3DApi&f=1);            
@@ -64,6 +63,12 @@
             background-color: fuchsia;
             color: rgb(0, 0, 0);
         }
+        legend{
+            color: blue;
+        }
+        fieldset{
+            margin-bottom: 15px;
+        }
     </style>
 </head> <!--encabezado-->
 <body> 
@@ -75,31 +80,38 @@
         </div>
     </header>
     <article>
-        <h4>Educación</h4>
-        <ul>
-            <li><b>3,4,5 años: </b>inicial</li> <!--li = listas and b = negrita-->
-            <li><b>2006-2010: </b>Primaria I.E.Amaybamba</li>
-            <li><b>2011: </b>Sec. Daniel Alcidez Carrion</li>
-            <li><b>2012: </b>Sec. Francisco Bolognesi</li>
-            <li><b>2013-2016: </b>Sec. Daniel Alcidez Carrion</li>
-            <li><b>2017: </b>Univecidad Nacional Amazonica de Madre de Dios</li>
-        </ul>
+        <!--ul>li*3-->
+        <fieldset>
+            <legend>Educación</legend>
+            <ul>
+                <li><b>3,4,5 años: </b>inicial</li> <!--li = listas and b = negrita-->
+                <li><b>2006-2010: </b>Primaria I.E.Amaybamba</li>
+                <li><b>2011: </b>Sec. Daniel Alcidez Carrion</li>
+                <li><b>2012: </b>Sec. Francisco Bolognesi</li>
+                <li><b>2013-2016: </b>Sec. Daniel Alcidez Carrion</li>
+                <li><b>2017: </b>Univecidad Nacional Amazonica de Madre de Dios</li>
+            </ul>
+        </fieldset>
     </article>
     <article>
-        <h4>Experiencia Laboral</h4>
-        <ul>
-            <li><b>2017: </b>Niñera</li>
-            <li><b>2018: </b>Tienda de ropas</li>
-            <li><b>2019: </b>Estudio Juridico</li>
-        </ul>
+        <fieldset>
+            <legend>Experiencia Laboral</legend>
+            <ul>
+                <li><b>2017: </b>Niñera</li>
+                <li><b>2018: </b>Tienda de ropas</li>
+                <li><b>2019: </b>Estudio Juridico</li>
+            </ul>
+        </fieldset>
     </article>
     <article>
-        <h4>Jobby</h4>
-        <ul>
-            <li><b>Deporte: </b>Musica, Baile, Dibujar, Pintar.</li>
-            <li><b>Colores</b>Blanco, Fuxia, Vino, Mostaza, Negro, Azul</li>
-            <li><b>Comida</b>Ceviche, Frejol Pitipoa Variado,Caldo de Cordero, Tallarin Saltado con Filete</li>
-        </ul>
+        <fieldset>
+            <legend>Jobby</legend>
+            <ul>
+                <li><b>Deporte: </b>Musica, Baile, Dibujar, Pintar.</li>
+                <li><b>Colores: </b>Blanco, Fuxia, Vino, Mostaza, Negro, Azul</li>
+                <li><b>Comida</b>Ceviche, Frejol Pitipoa Variado,Caldo de Cordero, Tallarin Saltado con Filete</li>
+            </ul>
+        </fieldset>
     </article>
     <a href="https://www.google.com">ling a google</a><br><br>
     <input type="text" placeholder="ingrese tu correo"><br>
