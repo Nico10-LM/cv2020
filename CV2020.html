@@ -7,115 +7,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <style>
-        *{
-            font-family: 'Roboto', sans-serif;
-        }
-        h1,h2,h4,ul{
-            margin: 0%;
-        }
-        img{
-            width: 100px;
-            height: 80px;
-            object-fit: cover;
-            margin-right: 15px;
-            border-radius: 100%;
-        }
-        header div{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        header{
-            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-            background-color: rgb(141, 138, 138);
-            margin-bottom: 30px;
-            display: flex;
-            border: 1px solid rgb(0, 0, 0);
-        }
-        body{
-            background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Xybvmf6vbsWaENIeXspocQHaEK%26pid%3DApi&f=1);            
-        }
-        h1{
-            color: rgb(0, 0, 0);
-            font-size: 20px;
-        }
-        h1:hover{
-            color: rgb(0, 0, 0);
-            background-color: dodgerblue;
-            font-size: 30px;
-        }
-        h2{
-            color: rgb(0, 0, 0);
-            font-size: 17px;
-        }
-        h4{
-            color: blue;
-        }
-        article{
-            margin-bottom: 15px;
-            padding: 15px;
-            transition: all 0.3s;
-            border: 1px solid rgb(0, 0, 0);
-            background-color: rgb(141, 138, 138);
-        }
-        button{
-            border: none; /*El borde es ninguno*/
-            background-color: fuchsia;
-            color: rgb(0, 0, 0);
-        }
-        legend{
-            color: blue;
-        }
-        fieldset{
-            margin-bottom: 15px;
-        }
+        @import url(estilos.css);
     </style>
 </head> <!--encabezado-->
-<body> 
-    <header>
-        <img src="Melany.png" >
-        <div>
-            <h1>Liz Melany Huaman Chacma</h1>
-            <h2>Estudiante</h2>
+<body>
+    <div class="contenido-inicial">
+        <header>
+            <img src="Melany.png" >
+            <div>
+                <h1>Liz Melany Huaman Chacma</h1>
+                <h2>Estudiante</h2>
+            </div>
+        </header>
+        <div class="contenido">
+            <article>
+                <h4>Educación</h4>
+                <ul>
+                    <li><b>2006: </b>Primaria I.E.Amaybamba</li>
+                    <li><b>2011: </b>Sec. Daniel Alcidez Carrion</li>
+                    <li><b>2012: </b>Sec. Francisco Bolognesi</li>
+                    <li><b>2016: </b>Sec. Daniel Alcidez Carrion</li>
+                    <li><b>2017: </b>Univecidad Nacional Amazonica de Madre de Dios</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Experiencia Laboral</h4>
+                <ul>
+                    <li><b>2017: </b>Niñera</li>
+                    <li><b>2018: </b>Tienda de ropas</li>
+                    <li><b>2019: </b>Estudio Juridico</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Hobby</h4>
+                <ul>
+                    <li><b>Deporte: </b>Musica, Baile, Dibujar, Pintar.</li>
+                    <li><b>Colores: </b>Blanco, Fuxia, Vino, Mostaza, Negro, Azul</li>
+                    <li><b>Comida: </b>Ceviche, Frejol Pitipoa Variado,Caldo de Cordero, Tallarin Saltado con Filete</li>
+                </ul>
+            </article>
         </div>
-    </header>
-    <article>
-        <!--ul>li*3-->
-        <fieldset>
-            <legend>Educación</legend>
-            <ul>
-                <li><b>3,4,5 años: </b>inicial</li> <!--li = listas and b = negrita-->
-                <li><b>2006-2010: </b>Primaria I.E.Amaybamba</li>
-                <li><b>2011: </b>Sec. Daniel Alcidez Carrion</li>
-                <li><b>2012: </b>Sec. Francisco Bolognesi</li>
-                <li><b>2013-2016: </b>Sec. Daniel Alcidez Carrion</li>
-                <li><b>2017: </b>Univecidad Nacional Amazonica de Madre de Dios</li>
-            </ul>
-        </fieldset>
-    </article>
-    <article>
-        <fieldset>
-            <legend>Experiencia Laboral</legend>
-            <ul>
-                <li><b>2017: </b>Niñera</li>
-                <li><b>2018: </b>Tienda de ropas</li>
-                <li><b>2019: </b>Estudio Juridico</li>
-            </ul>
-        </fieldset>
-    </article>
-    <article>
-        <fieldset>
-            <legend>Jobby</legend>
-            <ul>
-                <li><b>Deporte: </b>Musica, Baile, Dibujar, Pintar.</li>
-                <li><b>Colores: </b>Blanco, Fuxia, Vino, Mostaza, Negro, Azul</li>
-                <li><b>Comida</b>Ceviche, Frejol Pitipoa Variado,Caldo de Cordero, Tallarin Saltado con Filete</li>
-            </ul>
-        </fieldset>
-    </article>
-    <a href="https://www.google.com">ling a google</a><br><br>
-    <input type="text" placeholder="ingrese tu correo"><br>
-    <input type="password" placeholder=" ingrese tu password"><br>
-    <button>Bóton</button> <br>
+    </div>
 </body>
 </html>
